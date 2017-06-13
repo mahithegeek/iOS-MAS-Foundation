@@ -2152,6 +2152,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1.4.00;
 				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -2181,8 +2182,8 @@
 					"$(PROJECT_DIR)/MASFoundation/Vendor/OpenSSL/include",
 					"$(PROJECT_DIR)/MASFoundation/Vendor/OpenSSL/include/lib",
 				);
-				MACH_O_TYPE = staticlib;
-				ONLY_ACTIVE_ARCH = NO;
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ca.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -2226,7 +2227,7 @@
 					"$(PROJECT_DIR)/MASFoundation/Vendor/OpenSSL/include",
 					"$(PROJECT_DIR)/MASFoundation/Vendor/OpenSSL/include/lib",
 				);
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ca.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
