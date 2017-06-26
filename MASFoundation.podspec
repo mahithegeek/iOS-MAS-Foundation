@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-    s.version       = '1.5.00'
+    s.version       = '1.4.00'
     s.name          = 'MASFoundation'
     s.summary       = 'The MASFoundation framework is the core iOS framework upon which Mobile App Service is built.'
     s.homepage      = "https://github.com/CAAPIM/iOS-MAS-Foundation"
